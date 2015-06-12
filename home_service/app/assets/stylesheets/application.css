@@ -1,0 +1,140 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+.container {
+  min-width: 990px;
+  padding-top : 0;
+}
+.row {
+  width: 100%;
+  display: table;
+}
+.column {
+  float: left;
+  margin-right: 2%;
+  min-height: 1px;
+  overflow: visible;
+}
+.column.column-last {
+  float: right;
+  margin-right:0;
+}
+.column.column-units-1 {
+  width: 8.16%;
+  margin-right: 0.16%;
+}
+.column.column-units-2 {
+  width: 16.33%;
+  margin-right: 0.33%;
+}
+.column.column-units-3 {
+  width: 24.49%;
+  margin-right: 0.5%
+}
+.column.column-units-4 {
+  width: 32.66%;
+  margin-right: 0.66%
+}
+.column.column-units-5 {
+  width: 40.83%;
+  margin-right: 0.83%;
+}
+.column.column-units-6 {
+  width: 48.99%;
+  margin-right: 1%;
+}
+.column.column-units-7 {
+  width: 57.16%;
+  margin-right: 1.16%;
+}
+.column.column-units-8 {
+  width: 65.33%;
+  margin-right: 1.33%;
+}
+.column.column-units-9 {
+  width: 73.49%;
+  margin-right: 1.5%;
+}
+.column.column-units-10 {
+  width: 81.66%;
+  margin-right: 1.66%;
+}
+.column.column-units-11 {
+  width: 89.83%;
+  margin-right: 1.83%;
+}
+.column.column-units-12 {
+  width: 100%;
+}
+span.title-1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+span.title-2 {
+  font-size: 15px;
+  font-weight: bold;
+}
+span.title-3 {
+  font-size: 20px;
+  font-weight: 550;
+}
+span.link {
+  color: #0066c0;
+}
+a {
+  text-decoration: none;
+}
+.input-text {
+  width: 50%;
+}
+.row.or {
+  text-align:center;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+.row.search-menu {
+  margin-top:50px;
+  margin-bottom:50px;
+}
+.textarea {
+  width: 100%;
+  min-height: 20vh;
+}
+.button-input {
+  opacity: 0.01;
+  border : 0 none;
+  background-color: white;
+  position: absolute;
+}
+.button-toggle {
+  border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0;
+    text-align: center;
+    text-decoration: none !important;
+    vertical-align: middle;
+}
+.button-text {
+  padding: 5px 10px 5px 10px;
+}
+.prblm-row {
+  margin-top:20px;
+  margin-bottom:20px;
+}

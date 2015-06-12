@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Homeservice</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <div class='page'>
+    <div class='container'>
+      <div class='nav'>
+        <div class='section'>
+          <div class='row'>
+          <div class='column column-units-3'>
+           <a href='/'><span class='title-1'>Homeservice</span></a>
+          </div>
+          <div class='column column-units-4 column-last'>
+            <div class='section'>
+              <div class='row'>
+              <div class='column column-units-4'>
+                <a href='/me'><span class='title-2 link'>My Requests</span></a>
+              </div>
+              <div class='column column-units-4'>
+                <a href='/notif'><span class='title-2 link'>Notifications</span></a>
+              </div>
+              <div class='column column-units-4 column-last'>
+                <a href='/help'><span class='title-2 link'>Help</span></a>
+              </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='container'>
+      <hr>
+      <%= yield %>
+    </div>
+  </div>
+</body>
+</html>
