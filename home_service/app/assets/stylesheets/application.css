@@ -17,6 +17,9 @@
   min-width: 990px;
   padding-top : 0;
 }
+.section {
+  margin-bottom: 20px;
+}
 .row {
   width: 100%;
   display: table;
@@ -106,7 +109,7 @@ a {
 }
 .row.search-menu {
   margin-top:50px;
-  margin-bottom:50px;
+  margin-bottom:30px;
 }
 .textarea {
   width: 100%;
@@ -118,7 +121,7 @@ a {
   background-color: white;
   position: absolute;
 }
-.button-toggle {
+.box {
   border-image: none;
     border-radius: 3px;
     border-style: solid;
@@ -131,7 +134,7 @@ a {
     text-decoration: none !important;
     vertical-align: middle;
 }
-.button-text {
+.box-text {
   padding: 5px 10px 5px 10px;
 }
 .prblm-row {
